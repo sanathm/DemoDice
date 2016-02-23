@@ -21,6 +21,7 @@ Dice::Dice(){
 }
 
 int Dice::rollNumber(){
+	rollCount++;
 	return rollCount;
 }
 
